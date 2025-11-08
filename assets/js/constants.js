@@ -12,9 +12,13 @@ const GROUND_Y = 65;
 const KEY_UP = 38;
 const KEY_RIGHT = 39;
 const KEY_LEFT = 37;
+const KEY_FIRE = 32;
 
 const MARIO_VX = 5;
 const MARIO_VY = 10;
 const MARIO_AY = 0.4;
+const MARIO_WEAPON_RELOAD = 500;
+
+const BOWSER_ENEMY_SPAWN_INTERVAL = 1500;
 
 const DEBUG = true;
