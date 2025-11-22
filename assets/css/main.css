@@ -1,5 +1,61 @@
+html {
+  background-image: url('/assets/images/bgs/bg-main.avif');
+  background-repeat: repeat;
+  background-size: 200px 200px;
 
+  font-family: "Press Start 2P", "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  overflow: hidden;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
 
 canvas {
   border: 1px solid black;
+}
+
+.panel-start {
+  background-image: url('/assets/images/bgs/bg-panel-start.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #2866d8;
+  border: 1px solid black;
+  width: 1000px;
+  height: 600px;
+}
+
+.panel-end {
+  background-image: url('/assets/images/bgs/bg-panel-end.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #181818;
+  border: 1px solid black;
+  width: 1000px;
+  height: 600px;
+}
+
+.hide {
+  display: none;
 }

@@ -1,7 +1,7 @@
 
 const FPS = 1000 / 60;
 
-const CANVAS_W = 1200;
+const CANVAS_W = 1000;
 const CANVAS_H = 600;
 
 const BG_MAIN = '/assets/images/bgs/bg-game.png';

@@ -1,7 +1,7 @@
 
 class Game {
 
-  constructor(canvasId) {
+  constructor(canvasId, onGameOver = () => {}) {
     this.canvas = document.getElementById(canvasId);
     this.canvas.width = CANVAS_W;
     this.canvas.height = CANVAS_H;
@@ -26,6 +26,8 @@ class Game {
 
     this.setupListeners();
     this.setupEnemySpawn();
+
+    this.onGameOver = onGameOver;
   }
 
   start() {
@@ -122,6 +124,7 @@ class Game {
   gameOver() {
     this.stop();
     console.log('Game Over!');
+    this.onGameOver();
   }
 
   draw() {
