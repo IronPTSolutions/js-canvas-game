@@ -21,4 +21,6 @@ const MARIO_WEAPON_RELOAD = 500;
 
 const BOWSER_ENEMY_SPAWN_INTERVAL = 1500;
 
+const LOCAL_STORAGE_SCORE_KEY = 'score';
+
 const DEBUG = false;

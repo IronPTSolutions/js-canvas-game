@@ -23,6 +23,10 @@ class Game {
     this.enemies = [];
 
     this.totalPoints = 0;
+    // -- hint: LOAD
+    this.scores = localStorage.getItem(LOCAL_STORAGE_SCORE_KEY) ? JSON.parse(localStorage.getItem(LOCAL_STORAGE_SCORE_KEY)) : {};
+    // -- hint: STORE
+    localStorage.setItem(LOCAL_STORAGE_SCORE_KEY, JSON.stringify(this.scores));
 
     this.setupListeners();
     this.setupEnemySpawn();
