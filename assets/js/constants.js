@@ -21,4 +21,4 @@ const MARIO_WEAPON_RELOAD = 500;
 
 const BOWSER_ENEMY_SPAWN_INTERVAL = 1500;
 
-const DEBUG = true;
+const DEBUG = false;
